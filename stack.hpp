@@ -12,7 +12,7 @@ struct Stack {
         tab(new int[n]) {}
     
     Stack(const Stack& rs) = delete;
-    void operator =(const Stack & rs)=delete;
+    void operator =(const Stack & rs)=delete;//operation egal
     /* Ajout d'une valeur dans la pile */
     void push(int e) {
         if (nb == size) {
