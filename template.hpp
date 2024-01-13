@@ -86,3 +86,6 @@ inline std::ostream& operator<< (std::ostream& os, const Stack<V>&rst){
     rst.print();
     return(os);
 }
+
+//surcharge operateur
+//operator int(){return val;}
